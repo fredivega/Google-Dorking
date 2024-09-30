@@ -19,16 +19,6 @@ const dorkCategories = [
         ]
     },
     {
-        name: "Dominios Específicos",
-        dorks: [
-            'site:.gov',
-            'site:.edu',
-            'site:.org',
-            'intitle:index of',
-            'filetype:xls inurl:"email" intext:"password"'
-        ]
-    },
-    {
         name: "Búsqueda Avanzada Personalizada",
         dorks: [
             'site:"{site}" ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess | ext:json'
