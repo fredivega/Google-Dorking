@@ -25,7 +25,7 @@ const dorkCategories = [
         ]
     },
     {
-        name: "Búsquedas de Dominio Amplio con Exclusiones",
+        name: "Búsquedas de Dominio con Exclusiones",
         dorks: [
             'site:{site} -www -shop -share -ir -mfa'
         ]
@@ -121,7 +121,7 @@ const dorkCategories = [
         ]
     },
     {
-        name: "Documentos sensibles",
+        name: "Documentos Sensibles",
         dorks: [
             'site:{site} ext:txt | ext:pdf | ext:xml | ext:xls | ext:xlsx | ext:ppt | ext:pptx | ext:doc | ext:docx intext:"confidential" | intext:"Not for Public Release" | intext:"internal use only" | intext:"do not distribute"',
         ]
@@ -145,7 +145,7 @@ const dorkCategories = [
         ]
     },
     {
-        name: "Grupo de Google",
+        name: "Grupos de Google",
         dorks: [
             'site:groups.google.com {site}',
         ]
