@@ -1,0 +1,143 @@
+body {
+    background-color: #333232;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+    min-height: 450px;
+    text-align: center;
+}
+
+/* Contenedor central */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logodark {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+
+/* Estilo para los encabezados */
+.container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    color: #8db1bd;
+    font-family: "Edu QLD Beginner", cursive;
+}
+
+/* Estilo para las etiquetas de los inputs */
+.form-label {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    display: block;
+    text-align: start;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Placeholder del input */
+.form-control::placeholder {
+    color: #bbbbbb;
+}
+
+/* Margen entre los bloques */
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor de salida de los resultados */
+.output {
+    background-color: #1e1e1e71;
+    padding: 15px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+/* Estilo para los enlaces de los resultados */
+.output a {
+    text-decoration: none;
+    color: #00bfff;
+}
+
+/* Hover en los enlaces */
+.output a:hover {
+    color: #66d9ff;
+    text-decoration: underline;
+}
+
+.dork {
+            margin-bottom: 8px;
+}
+.dork a {
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+            padding: 8px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+}
+.dork a:hover {
+            background-color: #53aebe;
+            color: #fff;
+}
+@media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .dork a {
+                font-size: 14px;
+            }
+            h1, h2 {
+                font-size: 18px;
+            }
+}
